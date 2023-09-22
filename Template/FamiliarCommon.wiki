@@ -970,16 +970,262 @@
 |'''12.1%'''
 |35-65% 
 |31-51% 
+
+|- id="Phony"
+| rowspan="3" |{{IconCommon}}<br>{{Missing}}
+<!--| rowspan="3" |{{IconCommon}}<br>[[File:Familiar_Phony.png|Don't let the deceiving faun tricks you when he plays Bitkin Park songs with his flute, he's just pretending to be a true fan to steal the barrel of wine!]]-->
+|'''Phony'''
+|{{Power}}
+|'''TBC'''
+|'''Restorearth (0SP)'''
+|'''Vespuchen (1SP)'''
+|-
+|5% Earth Damage
+|{{Stamina}}
+|'''TBC'''
+|Shield + Heal Target 
+|Damage Weakest
+|-
+|[[Zones/Olympian Secret Party|Z17D1]]
+|{{Agility}}
+|'''TBC'''
+|TBC
+|TBC
+
+|- id="Arex"
+| rowspan="3" |{{IconCommon}}<br>{{Missing}}
+<!--| rowspan="3" |{{IconCommon}}<br>[[File:Familiar_Arex.png|You too will look as bad as this guy if people keep telling you that you destroyed Pompei with one of your morning farts. It wasn't at morning, it was at noon!]]-->
+|'''Arex'''
+|{{Power}}
+|'''TBC'''
+|'''Flaming Gaze (0SP)'''
+|'''Scorchamus (1SP)'''
+|-
+|5% Fire Damage
+|{{Stamina}}
+|'''TBC'''
+|Damage Weakest + Combust
+|Damage Target, 2 Times
+|-
+|[[Zones/Olympian Secret Party|Z17D2]]
+|{{Agility}}
+|'''TBC'''
+|TBC
+|TBC
+
+|- id="Nemean"
+| rowspan="3" |{{IconCommon}}<br>{{Missing}}
+<!--| rowspan="3" |{{IconCommon}}<br>[[File:Familiar_Nemean.png|The therapist told him that just because he's made of 4 different deadly creatures doesn't mean he needs 4 names (he's pretty bad at remembering names)]]-->
+|'''Nemean'''
+|{{Power}}
+|'''TBC'''
+|'''Madriga (0SP)'''
+|'''Resolve (1SP)'''
+|-
+|5% Air Resistance
+|{{Stamina}}
+|'''TBC'''
+|Air Damage + Drain Strongest
+|Shield Self
+|-
+|[[Zones/Olympian Secret Party|Z17D3]]
+|{{Agility}}
+|'''TBC'''
+|TBC
+|TBC
+
+|- id="MaxMax"
+| rowspan="3" |{{IconCommon}}<br>{{Missing}}
+<!--| rowspan="3" |{{IconCommon}}<br>[[File:Familiar_MaxMax.png|Once a policeman, now a dirty renegade of the desert, a creature of the dry wasteland, a warrior of the Sruxonian road, you get it mate??]]-->
+|'''MaxMax'''
+|{{Power}}
+|'''TBC'''
+|'''Flaming Iron (0SP)'''
+|'''Soler (1SP)'''
+|-
+|5% Fire Damage
+|{{Stamina}}
+|'''TBC'''
+|Fire Damage Closest + Combust
+|Fire Damage Weakest, Two Times
+|-
+|[[Zones/Sruxon Attack!|Z18D1]]
+|{{Agility}}
+|'''TBC'''
+|TBC
+|TBC
+
+|- id="Krablam"
+| rowspan="3" |{{IconCommon}}<br>{{Missing}}
+<!--| rowspan="3" |{{IconCommon}}<br>[[File:Familiar_Krablam.png|Krabers Krabers! Mud invader, born in the sun of July, always ready for battle, robot swamp thing!]]-->
+|'''Krablam'''
+|{{Power}}
+|'''TBC'''
+|'''Falang Scream (0SP)'''
+|'''Chillost (1SP)'''
+|-
+|5% Water Damage
+|{{Stamina}}
+|'''TBC'''
+|Water Damage Closest, Two Times
+|Water Damage Weakest + Freeze
+|-
+|[[Zones/Sruxon Attack!|Z18D2]]
+|{{Agility}}
+|'''TBC'''
+|TBC
+|TBC
+
+|- id="Chooc"
+| rowspan="3" |{{IconCommon}}<br>{{Missing}}
+<!--| rowspan="3" |{{IconCommon}}<br>[[File:Familiar_Chooc.png|The little mechanic is just upset of the amount of work he has. Man, he's just itching for vacations at the Sruxon beach!]]-->
+|'''Chooc'''
+|{{Power}}
+|'''TBC'''
+|'''Draineye (0SP)'''
+|'''Top Gear (1SP)'''
+|-
+|5% Water Resistance
+|{{Stamina}}
+|'''TBC'''
+|Electric Damage Weakest + Drain Weakest
+|Electric Damage Closest, Two Times, + Shock Closest
+|-
+|[[Zones/Sruxon Attack!|Z18D3]]
+|{{Agility}}
+|'''TBC'''
+|TBC
+|TBC
+
+|- id="Mananan"
+| rowspan="3" |{{IconCommon}}<br>{{Missing}}
+<!--| rowspan="3" |{{IconCommon}}<br>[[File:Familiar_Mananan.png|This creature seeks knowledge as a loyal servant of the Eye Cult.]]-->
+|'''Mananan'''
+|{{Power}}
+|'''TBC'''
+|'''Sharp Bite (0SP)'''
+|'''Hurricut (1SP)'''
+|-
+|5% Air Damage 
+|{{Stamina}}
+|'''TBC'''
+|Air Damage Closest + Bleed
+|Air Damage Weakest + Bleed
+|-
+|[[Zones/Galactic Trials|Z19D1]]
+|{{Agility}}
+|'''TBC'''
+|TBC
+|TBC
+
+|- id="Tukatuks"
+| rowspan="3" |{{IconCommon}}<br>{{Missing}}
+<!--| rowspan="3" |{{IconCommon}}<br>[[File:Familiar_Tukatuks.png|Tukatuks survives becoming a loyal servant of powerful warriors, there's no need to hesitate in battle with his support.]]-->
+|'''Tukatuks'''
+|{{Power}}
+|'''TBC'''
+|'''Jinxed (0SP)'''
+|'''Vitalize (1SP)'''
+|-
+|5% Earth Damage 
+|{{Stamina}}
+|'''TBC'''
+|Earth Damage Closest + Root
+|Heal Target
+|-
+|[[Zones/Galactic Trials|Z19D2]]
+|{{Agility}}
+|'''TBC'''
+|TBC
+|TBC
+
+|- id="FREH"
+| rowspan="3" |{{IconCommon}}<br>{{Missing}}
+<!--| rowspan="3" |{{IconCommon}}<br>[[File:Familiar_Freh.png|FREH guards the entrance to the holy shrine where fisherfish pilgrims leave their prayers to Seaidon]]-->
+|'''FREH'''
+|{{Power}}
+|'''TBC'''
+|'''Icy Splash (0SP)'''
+|'''Resolve (1SP)'''
+|-
+|5% Fire Resistance
+|{{Stamina}}
+|'''TBC'''
+|Water Damage Closest + Freeze
+|Shield Self
+|-
+|[[Zones/Galactic Trials|Z19D3]]
+|{{Agility}}
+|'''TBC'''
+|TBC
+|TBC
+
+|- id="Broky"
+| rowspan="3" |{{IconCommon}}<br>{{Missing}}
+<!--| rowspan="3" |{{IconCommon}}<br>[[File:Familiar_Broky.png|Since Goodall's discovery about the ancient civilization, Broky has been an all-terrain assistance during the excavations.]]-->
+|'''Broky'''
+|{{Power}}
+|'''TBC'''
+|'''Epunch (0SP)'''
+|'''Rooter (1SP)'''
+|-
+|5% Air Resistance
+|{{Stamina}}
+|'''TBC'''
+|Earth Damage Closest
+|Earth Damage Fastest + Root
+|-
+|[[Zones/Big Claw|Z20D1]]
+|{{Agility}}
+|'''TBC'''
+|TBC
+|TBC
+
+|- id="Birdsworth"
+| rowspan="3" |{{IconCommon}}<br>{{Missing}}
+<!--| rowspan="3" |{{IconCommon}}<br>[[File:Familiar_Birdsworth.png|After discovering what happened to the great Chi'Khans of the chicken tribe, Cornalkhan viciously attacked Birdsworth who, in an attempt to survive, injected himself with a sample of the pale yolk.]]-->
+|'''Birdsworth'''
+|{{Power}}
+|'''TBC'''
+|'''Bolting Hit (0SP)'''
+|'''Bolting Dash (1SP)'''
+|-
+|5% Electric Damage
+|{{Stamina}}
+|'''TBC'''
+|Electric Damage Closest 2 Enemies + Oxidize
+|Electric Damage Strongest + Recoil
+|-
+|[[Zones/Big Claw|Z20D2]]
+|{{Agility}}
+|'''TBC'''
+|TBC
+|TBC
+
+|- id="Krispy"
+| rowspan="3" |{{IconCommon}}<br>{{Missing}}
+<!--| rowspan="3" |{{IconCommon}}<br>[[File:Familiar_Krispy.png|Krispy developed a fascination for the artifacts that scientists were giving away, always snooping around Cluck Pit to see if he can trade something. Once exchanged 100K gold for 2 sockets, best sale ever!]]-->
+|'''Krispy'''
+|{{Power}}
+|'''TBC'''
+|'''Candy Pray (0SP)'''
+|'''Happy Will (1SP)'''
+|-
+|5% Air Damage 
+|{{Stamina}}
+|'''TBC'''
+|Heal Target
+|Spread Heal + Recoil
+|-
+|[[Zones/Big Claw|Z20D3]]
+|{{Agility}}
+|'''TBC'''
+|TBC
+|TBC
 |}
 ;Missing
 *Vardge
 *Sprhida
-*Phony
-*Arex
-*Nemean
-*Maxmax
-*Krablam
-*Chooc
 
 <noinclude>
 ;Description
