@@ -1,0 +1,49 @@
+Name,Rarity,Zone,Dungeon,Stat Spread,Skills,Bonuses,Flavor Text
+Thanates,Epic,Z17,"D1, D4",29.6 / 14.0 / 56.4,"Punishment (0SP): Deals earth damage and bleed furthest enemy
+Magic...stuff (1SP): Deals earth damage and bleed target enemy
+That Thingie (1SP): Dealths earth damage to furthest and closest enemy
+Ughhhhhhhh (2SP): Deals earth damage to a random enemy, 2 times",10% Earth Dmg,Looks dead but he's not. He just took a bet to hold his breath too seriously (600 years and counting!).
+Thebes,Epic,Z17,"D2, D4",72.6 / 9.1 / 18.2,"Shield Formation (0SP): Shields and heals self
+Flame Thrust (0SP): Deals fire damage and combust closest enemy
+Heart-throw (1SP): Deals fire damage and drains from selected enemy, 2 times
+Flaming Piercer (2SP): Deals fire damage and combust the closest enemy 2 times",10% Fire Resist,"A soldier of love and union. If you are by his side he will be there for you, forever... but beware if you are the enemy!"
+Aeololo,Epic,Z17,"D3, D4",65.1 / 11.5 / 23.4,"Bleed Note (0SP): Deals air damage and bleed target enemy
+Sharp Order (1SP): Deals air damage to closest 2 enemies
+Dicey-breath (1SP): Deals air damage to random enemy, 2 times
+Oxidizing Note (2SP): Deals air damage and oxidize target enemy",10% Air Dmg,The lord of wind doesn't look like he moves too much! He says it's because he has big bones.
+Robosawa,Epic,Z18,"D1, D4",28.5 / 56.3 / 15.2,"Mad sensei (0SP): Deals fire damage and roots weakest enemey
+Hungry katana (0SP): Deals fire damage and drains strongest enemy
+Sane in the brain (1SP): Deals fire damage and bleeds closest 2 enemies
+Med-itation (2SP): Shields teammates",10% Earth Resist,"Melvinsawa found his body way too inappropriate to properly use a katana, so he designed the perfect body for his desires, change his name, and now he can cut pizza like a boss!"
+Dr. Ediblegh,Epic,Z18,"D2, D4",17.9 / 27.6 / 54.5,"Chill-on potion (0SP): Deals water damage and freeze weakest enemy
+Burned dough (0SP): Shield target
+Chemical KABOOM (1SP): Deal water damage and freeze weakest enemy
+Secret pop-tart (2SP): Enrage teammate and spread heal",10% Water Dmg,"Science and cooking are not very different from one another. Doctor and cheff Ediblegh might look unusual. It's because they don't let him go outside too much. And because he won't stop working until he creates the perfect robo-pop tart, an amazing sweet that would change Melvins eyes for ever!"
+Washi,Epic,Z18,"D3, D4",37.4 / 25.7 / 36.9,"Peeled cables (0SP): Deals electric damage to weakest enemy 2 times and shock
+Wash and Dry (1SP): Deals electric damage to weakest and strongest enemy
+5000rpm trumble (2SP): Deals electric damage to closest enemy 2 times and shock
+Anti-Stain Procedure (2SP): Deals electric damage and shock target enemy, 2 times",10% Electric Dmg,"The Biggest exo-armor designed to guard and defend the cosmic border of Sruxon, properly designed by the Melvins Sruxonian Army, equally suited for combat as for laundry. Never go to war with dirty clothes!"
+Tomor,Epic,Z19,"D1, D4",28.1 / 24.1 / 47.7,"Ahnded Kure (0SP): Deals air damage and bleeds closest, spread heals
+Prutekt (1SP): Shield target
+Karnaaage (1SP): Deals air damage and bleeds closest 3 enemies
+Nekro Brezz (2SP): Spread heal and gain 1 SP",10% Air Dmg,"The galactic war chief, Tomor. Fallen in disgrace after being betrayed by his own crew is seeking vengeance from the afterlife."
+Espanior,Epic,Z19,"D2, D4",36.7 / 36.2 / 27.0,"Rwand Weehk (0SP): Oxidize enemy team and deal earth damage to strongest, closest and weakest enemies
+Kam'h heerh (1SP): Deals earth damage and roots closest 3 enemies
+Pellag Haet (1SP): Drain furthest enemy
+Eaawrthent azenth (2SP): Deals earth damage and root weakest enemy, 2 times",10% Earth Dmg,"Once Tomor's apprentice and Cyclopoid's rival, Espanior is the most dangerous warrior in the coliseum. His glory is just surpassed by the legendary Gamma Ranger."
+Davidator,Epic,Z19,"D3, D4",10.1 / 50.4 / 39.5,"Power Slurp (0SP): Deals water damage and drains strongest enemy
+Iceblock (1SP): Deals water damage and freezes closest enemy, shields self
+Risky Steam (2SP): Deals water damage and freezes furthest enemy, damage self
+Glacier cannon (3SP): Deals water damage and freezes random enemy, damage self",10 Fire Resist,Known as the maximum authority of the fisherfish people. Davidator hides a terrible secret...
+Tibourke,Epic,Z20,"D1, D4",42.9 / 18.1 / 39.0,"Terra strike (0SP): Deals earth damage to closest 2 enemies
+Terra smash (1SP): Deals earth damage to fastest and 1 other enemy
+Tectonic end: (2SP): Deals earth damage to the closest 3 enemies and self
+Tectonic crash (3SP): Deals earth damag eto the weakest enemy",10% Earth Dmg,"After finding evidence that the chicken tribe myths were a reality, Tibourke and his companions started acting stronger than usual."
+Dr. Huther,Epic,Z20,"D2, D4",40.1 / 51.1 / 8.8,"Lightning hit (0SP): Deals electric damage to the closest enemy and oxidizes
+Lightning omen (1SP): Deals electric damage to the weakest enemy
+Omega strike (2SP): Deals electric damage to target enemy and removes 1 SP
+Omega smash (3SP): Deals electric damage to the strongest enemy and 1 other enemy",10% Water Resist,"In the depths of Cluck Pit, a supernaturally potent elixir was found. Newther theorized that the pale yolk could potentially establish a connection with the cosmic chicken."
+Cachicken Totem,Epic,Z20,"D3, D4",35.5 / 19.2 / 45.2,"Happy arcane (0SP): Deals air damage to last attacker
+Sweet suck (1SP): Deals air damage to all enemies and removes 1 SP
+Sweet will (2SP): Heals strongest teammate
+Sweet pray (2SP): Heals and shields fastest teammate",10% Air Dmg,"The leader of the tribe, Cachicken, believed the fact that people from the outside world confirmed their legeds and found the prophecy of the Chosen Hero would bring a blessing to the chicken tribe... apparently, it was quite the opposite."
