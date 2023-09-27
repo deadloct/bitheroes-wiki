@@ -1,22 +1,15 @@
 # Bit Heroes CSV to Wikitext Generator
 
-Convert a very specifically formatted CSV file to the BH wiki familiar format. Will hopefully get more generic in the future if we find other uses for this script.
+Converts CSV files into wikitext for the Bit Heroes wiki.
 
-## Usage
+## Subcommands
 
-Positional Args:
+### Familiars
 
-* `input_file`: input file
-* `output_file`: wikitext output file
-* `rarity`: One of these: Common|Rare|Epic|Legendary|Mythic
+Produces output for the [Familiars page](https://bit-heroes.fandom.com/wiki/Familiar).
 
-Options:
-
-* `-h, --help`: show this help message and exit
-
-## Example
+Example usage:
 
 ```bash
-$ python3 main.py samples/epic.csv samples/epic.wiki Epic
-Finished writing wikitext to samples/epic.wiki
+python3 main.py familiars --csv samples/epic.csv --out samples/epic.wiki --rarity epic
 ```
