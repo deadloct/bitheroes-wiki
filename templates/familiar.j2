@@ -1,0 +1,23 @@
+|- id="{{fam.name}}"
+| rowspan="3" |{% raw %}{{{% endraw %}Icon{{fam.rarity}}{% raw %}}}{% endraw %}<br>{% raw %}{{Missing}}{% endraw %}
+<!--| rowspan="3" |{% raw %}{{{% endraw %}Icon{{fam.rarity}}{% raw %}}}{% endraw %}<br>[[File:Familiar_{{fam.name}}.png]]-->
+|'''{{fam.name}}'''
+|{% raw %}{{Power}}{% endraw %}
+|'''{{fam.power}}'''
+{% for name in fam.skill_names -%}
+|'''{{name}}'''
+{% endfor -%}
+|-
+|{{fam.bonuses|join(", ")}}
+|{% raw %}{{Stamina}}{% endraw %}
+|'''{{fam.stamina}}'''
+{% for desc in fam.skill_descs -%}
+|'''{{desc}}'''
+{% endfor -%}
+|-
+|{{fam.dungeons|join("/")}}
+|{% raw %}{{Agility}}{% endraw %}
+|'''{{fam.agility}}'''
+{% for range in fam.skill_ranges -%}
+|'''{{range}}'''
+{% endfor -%}
