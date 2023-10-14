@@ -2,6 +2,34 @@ local invocable = {}
 
 local dataNamespace = 'User'
 local dataPage = 'WikisAreOldschool/familiar-data/%s'
+
+local famTmpl = [=[|- id="%s"
+| rowspan="3" |{{Icon%s}}<br>{{Missing}}
+<!--| rowspan="3" |{{Icon%s}}<br>[[File:Familiar_%s.png]]-->
+%s
+|{{Power}}
+|'''%s'''
+%s
+|-%s
+|{{Stamina}}
+|'''%s'''
+%s
+|-
+|%s
+|{{Agility}}
+|'''%s'''
+%s
+]=] 
+
+local famsHeaderTmpl = [[<!-- START AUTO-GENERATED FROM CSV -->
+{| class="mw-collapsible bittable grey3" data-expandtext="Show" data-collapsetext="Hide"
+|+ %s Familiars
+]]
+ 
+local famsFooterTmpl = [[|}
+<!-- END AUTO-GENERATED FROM CSV -->
+]]
+
  
 function getJSON(rarity)
     local famTitle = mw.title.makeTitle(dataNamespace, string.format(dataPage, rarity))
@@ -25,23 +53,6 @@ function getFamiliarOutput(fam)
     local skillNames = fam['skill_names']
     local skillRanges = fam['skill_ranges']
    
-    local tmpl = [=[|- id="%s"
-| rowspan="3" |{{Icon%s}}<br>{{Missing}}
-<!--| rowspan="3" |{{Icon%s}}<br>[[File:Familiar_%s.png]]-->
-%s
-|{{Power}}
-|'''%s'''
-%s
-|-%s
-|{{Stamina}}
-|'''%s'''
-%s
-|-
-|%s
-|{{Agility}}
-|'''%s'''
-%s]=]
-
     local skillNameCells = {}
     for i, sn in ipairs(skillNames) do
         skillNameCells[i] = string.format("|'''%s'''", sn)
@@ -66,31 +77,21 @@ function getFamiliarOutput(fam)
     end
 
     return string.format(
-        tmpl, name, rarity, rarity, name, nameRowspawn, power, table.concat(skillNameCells, "\n"),
+        famTmpl, name, rarity, rarity, name, nameRowspawn, power, table.concat(skillNameCells, "\n"),
         bonusesMarkup, stamina, table.concat(skillDescsCells, "\n"),
         table.concat(dungeons, ", "), agility, table.concat(skillRangesCells, "\n"))
 end
 
 function getFamiliarsOutput(rarity, fams)
-    local header = string.format([[
-<!-- START AUTO-GENERATED FROM CSV -->
-{| class="mw-collapsible bittable grey3" data-expandtext="Show" data-collapsetext="Hide"
-|+ %s Familiars
-]], rarity)
-
-    local footer = [[
-|}
-<!-- END AUTO-GENERATED FROM CSV -->
-]]
+    local header = string.format(famsHeaderTmpl, rarity)
 
     local fragments = {}
     for i, fam in ipairs(fams) do
         fragments[i] = getFamiliarOutput(fam)
-        -- fragments[i] = fam['Name']
     end
 
     local rows = table.concat(fragments, "\n")
-    return table.concat({header, rows, footer}, "\n")
+    return table.concat({header, rows, famsFooterTmpl}, "\n")
 end
 
 function invocable.familiarsTable(frame)
