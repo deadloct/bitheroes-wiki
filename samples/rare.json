@@ -1,0 +1,55 @@
+[{
+    "agility": "20%",
+    "bonuses": [],
+    "dungeons": [
+        "Z1D1"
+    ],
+    "flavor": "Flubby wubby Tubbo. The tubbiest Tubbo there ever was.",
+    "name": "Tubbo",
+    "power": "20%",
+    "rarity": "Rare",
+    "skill_descs": [
+        "Deals damage to the closest enemy",
+        "Deals damage to all enemies.",
+        "Deals damage to the furthest enemy"
+    ],
+    "skill_names": [
+        "Attack (0 SP)",
+        "Rage (2 SP)",
+        "Isolate (3 SP)"
+    ],
+    "skill_ranges": [
+        "TBC",
+        "TBC",
+        "TBC"
+    ],
+    "stamina": "20%"
+}, {
+    "agility": "20%",
+    "bonuses": [
+        "Extort for 300%"
+    ],
+    "dungeons": [
+        "Z1D1"
+    ],
+    "flavor": "Revenge of Tubbo",
+    "name": "Tubbo 2",
+    "power": "20%",
+    "rarity": "Rare",
+    "skill_descs": [
+        "Deals damage to the closest enemy",
+        "Deals damage to all enemies.",
+        "Deals damage to the furthest enemy"
+    ],
+    "skill_names": [
+        "Attack (0 SP)",
+        "Rage (2 SP)",
+        "Isolate (3 SP)"
+    ],
+    "skill_ranges": [
+        "TBC",
+        "TBC",
+        "TBC"
+    ],
+    "stamina": "20%"
+}]

@@ -1,0 +1,397 @@
+[{
+    "agility": "56.4%",
+    "bonuses": [
+        "10% Earth Dmg"
+    ],
+    "dungeons": [
+        "[[Zones/Olympian Secret Party|Z17D1]]",
+        "[[Zones/Olympian Secret Party|Z17D4]]"
+    ],
+    "flavor": "Looks dead but he's not. He just took a bet to hold his breath too seriously (600 years and counting!).",
+    "name": "Thanates",
+    "power": "29.6%",
+    "rarity": "Epic",
+    "skill_descs": [
+        "Deals earth damage and bleed furthest enemy",
+        "Deals earth damage and bleed target enemy",
+        "Dealths earth damage to furthest and closest enemy",
+        "Deals earth damage to a random enemy, 2 times"
+    ],
+    "skill_names": [
+        "Punishment (0SP)",
+        "Magic...stuff (1SP)",
+        "That Thingie (1SP)",
+        "Ughhhhhhhh (2SP)"
+    ],
+    "skill_ranges": [
+        "TBC",
+        "TBC",
+        "TBC",
+        "TBC"
+    ],
+    "stamina": "14.0%",
+    "zone": "Z17"
+},{
+    "agility": "18.2%",
+    "bonuses": [
+        "10% Fire Resist"
+    ],
+    "dungeons": [
+        "[[Zones/Olympian Secret Party|Z17D2]]",
+        "[[Zones/Olympian Secret Party|Z17D4]]"
+    ],
+    "flavor": "A soldier of love and union. If you are by his side he will be there for you, forever... but beware if you are the enemy!",
+    "name": "Thebes",
+    "power": "72.6%",
+    "rarity": "Epic",
+    "skill_descs": [
+        "Shields and heals self",
+        "Deals fire damage and combust closest enemy",
+        "Deals fire damage and drains from selected enemy, 2 times",
+        "Deals fire damage and combust the closest enemy 2 times"
+    ],
+    "skill_names": [
+        "Shield Formation (0SP)",
+        "Flame Thrust (0SP)",
+        "Heart-throw (1SP)",
+        "Flaming Piercer (2SP)"
+    ],
+    "skill_ranges": [
+        "TBC",
+        "TBC",
+        "TBC",
+        "TBC"
+    ],
+    "stamina": "9.1%",
+    "zone": "Z17"
+},{
+    "agility": "23.4%",
+    "bonuses": [
+        "10% Air Dmg"
+    ],
+    "dungeons": [
+        "[[Zones/Olympian Secret Party|Z17D3]]",
+        "[[Zones/Olympian Secret Party|Z17D4]]"
+    ],
+    "flavor": "The lord of wind doesn't look like he moves too much! He says it's because he has big bones.",
+    "name": "Aeololo",
+    "power": "65.1%",
+    "rarity": "Epic",
+    "skill_descs": [
+        "Deals air damage and bleed target enemy",
+        "Deals air damage to closest 2 enemies",
+        "Deals air damage to random enemy, 2 times",
+        "Deals air damage and oxidize target enemy"
+    ],
+    "skill_names": [
+        "Bleed Note (0SP)",
+        "Sharp Order (1SP)",
+        "Dicey-breath (1SP)",
+        "Oxidizing Note (2SP)"
+    ],
+    "skill_ranges": [
+        "TBC",
+        "TBC",
+        "TBC",
+        "TBC"
+    ],
+    "stamina": "11.5%",
+    "zone": "Z17"
+},{
+    "agility": "15.2%",
+    "bonuses": [
+        "10% Earth Resist"
+    ],
+    "dungeons": [
+        "[[Zones/Sruxon Attack!|Z18D1]]",
+        "[[Zones/Sruxon Attack!|Z18D4]]"
+    ],
+    "flavor": "Melvinsawa found his body way too inappropriate to properly use a katana, so he designed the perfect body for his desires, change his name, and now he can cut pizza like a boss!",
+    "name": "Robosawa",
+    "power": "28.5%",
+    "rarity": "Epic",
+    "skill_descs": [
+        "Deals fire damage and roots weakest enemey",
+        "Deals fire damage and drains strongest enemy",
+        "Deals fire damage and bleeds closest 2 enemies",
+        "Shields teammates"
+    ],
+    "skill_names": [
+        "Mad sensei (0SP)",
+        "Hungry katana (0SP)",
+        "Sane in the brain (1SP)",
+        "Med-itation (2SP)"
+    ],
+    "skill_ranges": [
+        "TBC",
+        "TBC",
+        "TBC",
+        "TBC"
+    ],
+    "stamina": "56.3%",
+    "zone": "Z18"
+},{
+    "agility": "54.5%",
+    "bonuses": [
+        "10% Water Dmg"
+    ],
+    "dungeons": [
+        "[[Zones/Sruxon Attack!|Z18D2]]",
+        "[[Zones/Sruxon Attack!|Z18D4]]"
+    ],
+    "flavor": "Science and cooking are not very different from one another. Doctor and cheff Ediblegh might look unusual. It's because they don't let him go outside too much. And because he won't stop working until he creates the perfect robo-pop tart, an amazing sweet that would change Melvins eyes for ever!",
+    "name": "Dr. Ediblegh",
+    "power": "17.9%",
+    "rarity": "Epic",
+    "skill_descs": [
+        "Deals water damage and freeze weakest enemy",
+        "Shield target",
+        "Deal water damage and freeze weakest enemy",
+        "Enrage teammate and spread heal"
+    ],
+    "skill_names": [
+        "Chill-on potion (0SP)",
+        "Burned dough (0SP)",
+        "Chemical KABOOM (1SP)",
+        "Secret pop-tart (2SP)"
+    ],
+    "skill_ranges": [
+        "TBC",
+        "TBC",
+        "TBC",
+        "TBC"
+    ],
+    "stamina": "27.6%",
+    "zone": "Z18"
+},{
+    "agility": "36.9%",
+    "bonuses": [
+        "10% Electric Dmg"
+    ],
+    "dungeons": [
+        "[[Zones/Sruxon Attack!|Z18D3]]",
+        "[[Zones/Sruxon Attack!|Z18D4]]"
+    ],
+    "flavor": "The Biggest exo-armor designed to guard and defend the cosmic border of Sruxon, properly designed by the Melvins Sruxonian Army, equally suited for combat as for laundry. Never go to war with dirty clothes!",
+    "name": "Washi",
+    "power": "37.4%",
+    "rarity": "Epic",
+    "skill_descs": [
+        "Deals electric damage to weakest enemy 2 times and shock",
+        "Deals electric damage to weakest and strongest enemy",
+        "Deals electric damage to closest enemy 2 times and shock",
+        "Deals electric damage and shock target enemy, 2 times"
+    ],
+    "skill_names": [
+        "Peeled cables (0SP)",
+        "Wash and Dry (1SP)",
+        "5000rpm trumble (2SP)",
+        "Anti-Stain Procedure (2SP)"
+    ],
+    "skill_ranges": [
+        "TBC",
+        "TBC",
+        "TBC",
+        "TBC"
+    ],
+    "stamina": "25.7%",
+    "zone": "Z18"
+},{
+    "agility": "47.7%",
+    "bonuses": [
+        "10% Air Dmg"
+    ],
+    "dungeons": [
+        "[[Zones/Galactic Trials|Z19D1]]",
+        "[[Zones/Galactic Trials|Z19D4]]"
+    ],
+    "flavor": "The galactic war chief, Tomor. Fallen in disgrace after being betrayed by his own crew is seeking vengeance from the afterlife.",
+    "name": "Tomor",
+    "power": "28.1%",
+    "rarity": "Epic",
+    "skill_descs": [
+        "Deals air damage and bleeds closest, spread heals",
+        "Shield target",
+        "Deals air damage and bleeds closest 3 enemies",
+        "Spread heal and gain 1 SP"
+    ],
+    "skill_names": [
+        "Ahnded Kure (0SP)",
+        "Prutekt (1SP)",
+        "Karnaaage (1SP)",
+        "Nekro Brezz (2SP)"
+    ],
+    "skill_ranges": [
+        "TBC",
+        "TBC",
+        "TBC",
+        "TBC"
+    ],
+    "stamina": "24.1%",
+    "zone": "Z19"
+},{
+    "agility": "27.0%",
+    "bonuses": [
+        "10% Earth Dmg"
+    ],
+    "dungeons": [
+        "[[Zones/Galactic Trials|Z19D2]]",
+        "[[Zones/Galactic Trials|Z19D4]]"
+    ],
+    "flavor": "Once Tomor's apprentice and Cyclopoid's rival, Espanior is the most dangerous warrior in the coliseum. His glory is just surpassed by the legendary Gamma Ranger.",
+    "name": "Espanior",
+    "power": "36.7%",
+    "rarity": "Epic",
+    "skill_descs": [
+        "Oxidize enemy team and deal earth damage to strongest, closest and weakest enemies",
+        "Deals earth damage and roots closest 3 enemies",
+        "Drain furthest enemy",
+        "Deals earth damage and root weakest enemy, 2 times"
+    ],
+    "skill_names": [
+        "Rwand Weehk (0SP)",
+        "Kam'h heerh (1SP)",
+        "Pellag Haet (1SP)",
+        "Eaawrthent azenth (2SP)"
+    ],
+    "skill_ranges": [
+        "TBC",
+        "TBC",
+        "TBC",
+        "TBC"
+    ],
+    "stamina": "36.2%",
+    "zone": "Z19"
+},{
+    "agility": "39.5%",
+    "bonuses": [
+        "10 Fire Resist"
+    ],
+    "dungeons": [
+        "[[Zones/Galactic Trials|Z19D3]]",
+        "[[Zones/Galactic Trials|Z19D4]]"
+    ],
+    "flavor": "Known as the maximum authority of the fisherfish people. Davidator hides a terrible secret...",
+    "name": "Davidator",
+    "power": "10.1%",
+    "rarity": "Epic",
+    "skill_descs": [
+        "Deals water damage and drains strongest enemy",
+        "Deals water damage and freezes closest enemy, shields self",
+        "Deals water damage and freezes furthest enemy, damage self",
+        "Deals water damage and freezes random enemy, damage self"
+    ],
+    "skill_names": [
+        "Power Slurp (0SP)",
+        "Iceblock (1SP)",
+        "Risky Steam (2SP)",
+        "Glacier cannon (3SP)"
+    ],
+    "skill_ranges": [
+        "TBC",
+        "TBC",
+        "TBC",
+        "TBC"
+    ],
+    "stamina": "50.4%",
+    "zone": "Z19"
+},{
+    "agility": "39.0%",
+    "bonuses": [
+        "10% Earth Dmg"
+    ],
+    "dungeons": [
+        "[[Zones/Big Claw|Z20D1]]",
+        "[[Zones/Big Claw|Z20D4]]"
+    ],
+    "flavor": "After finding evidence that the chicken tribe myths were a reality, Tibourke and his companions started acting stronger than usual.",
+    "name": "Tibourke",
+    "power": "42.9%",
+    "rarity": "Epic",
+    "skill_descs": [
+        "Deals earth damage to closest 2 enemies",
+        "Deals earth damage to fastest and 1 other enemy",
+        "(2SP): Deals earth damage to the closest 3 enemies and self",
+        "Deals earth damag eto the weakest enemy"
+    ],
+    "skill_names": [
+        "Terra strike (0SP)",
+        "Terra smash (1SP)",
+        "Tectonic end",
+        "Tectonic crash (3SP)"
+    ],
+    "skill_ranges": [
+        "TBC",
+        "TBC",
+        "TBC",
+        "TBC"
+    ],
+    "stamina": "18.1%",
+    "zone": "Z20"
+},{
+    "agility": "8.8%",
+    "bonuses": [
+        "10% Water Resist"
+    ],
+    "dungeons": [
+        "[[Zones/Big Claw|Z20D2]]",
+        "[[Zones/Big Claw|Z20D4]]"
+    ],
+    "flavor": "In the depths of Cluck Pit, a supernaturally potent elixir was found. Newther theorized that the pale yolk could potentially establish a connection with the cosmic chicken.",
+    "name": "Dr. Huther",
+    "power": "40.1%",
+    "rarity": "Epic",
+    "skill_descs": [
+        "Deals electric damage to the closest enemy and oxidizes",
+        "Deals electric damage to the weakest enemy",
+        "Deals electric damage to target enemy and removes 1 SP",
+        "Deals electric damage to the strongest enemy and 1 other enemy"
+    ],
+    "skill_names": [
+        "Lightning hit (0SP)",
+        "Lightning omen (1SP)",
+        "Omega strike (2SP)",
+        "Omega smash (3SP)"
+    ],
+    "skill_ranges": [
+        "TBC",
+        "TBC",
+        "TBC",
+        "TBC"
+    ],
+    "stamina": "51.1%",
+    "zone": "Z20"
+},{
+    "agility": "45.2%",
+    "bonuses": [
+        "10% Air Dmg"
+    ],
+    "dungeons": [
+        "[[Zones/Big Claw|Z20D3]]",
+        "[[Zones/Big Claw|Z20D4]]"
+    ],
+    "flavor": "The leader of the tribe, Cachicken, believed the fact that people from the outside world confirmed their legeds and found the prophecy of the Chosen Hero would bring a blessing to the chicken tribe... apparently, it was quite the opposite.",
+    "name": "Cachicken Totem",
+    "power": "35.5%",
+    "rarity": "Epic",
+    "skill_descs": [
+        "Deals air damage to last attacker",
+        "Deals air damage to all enemies and removes 1 SP",
+        "Heals strongest teammate",
+        "Heals and shields fastest teammate"
+    ],
+    "skill_names": [
+        "Happy arcane (0SP)",
+        "Sweet suck (1SP)",
+        "Sweet will (2SP)",
+        "Sweet pray (2SP)"
+    ],
+    "skill_ranges": [
+        "TBC",
+        "TBC",
+        "TBC",
+        "TBC"
+    ],
+    "stamina": "19.2%",
+    "zone": "Z20"
+}]

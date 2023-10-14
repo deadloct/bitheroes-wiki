@@ -1,9 +1,9 @@
 local invocable = {}
 
-local dataNamespace = 'User'
-local dataPage = 'WikisAreOldschool/familiar-data/%s'
+local DATA_NAMESPACE = 'User'
+local DATA_PAGE = 'WikisAreOldschool/data/fams-%s.json'
 
-local famTmpl = [=[|- id="%s"
+local FAM_TEMPLATE = [=[|- id="%s"
 | rowspan="3" |{{Icon%s}}<br>{{Missing}}
 <!--| rowspan="3" |{{Icon%s}}<br>[[File:Familiar_%s.png]]-->
 %s
@@ -21,18 +21,18 @@ local famTmpl = [=[|- id="%s"
 %s
 ]=] 
 
-local famsHeaderTmpl = [[<!-- START AUTO-GENERATED FROM CSV -->
+local HEADER_TEMPLATE = [[<!-- START AUTO-GENERATED FROM LUA -->
 {| class="mw-collapsible bittable grey3" data-expandtext="Show" data-collapsetext="Hide"
 |+ %s Familiars
 ]]
  
-local famsFooterTmpl = [[|}
-<!-- END AUTO-GENERATED FROM CSV -->
+local FOOTER_TEMPLATE = [[|}
+<!-- END AUTO-GENERATED FROM LUA -->
 ]]
 
  
 function getJSON(rarity)
-    local famTitle = mw.title.makeTitle(dataNamespace, string.format(dataPage, rarity))
+    local famTitle = mw.title.makeTitle(DATA_NAMESPACE, string.format(DATA_PAGE, rarity))
     if famTitle and famTitle.exists then
         return famTitle:getContent()
     end
@@ -77,13 +77,13 @@ function getFamiliarOutput(fam)
     end
 
     return string.format(
-        famTmpl, name, rarity, rarity, name, nameRowspawn, power, table.concat(skillNameCells, "\n"),
+        FAM_TEMPLATE, name, rarity, rarity, name, nameRowspawn, power, table.concat(skillNameCells, "\n"),
         bonusesMarkup, stamina, table.concat(skillDescsCells, "\n"),
         table.concat(dungeons, ", "), agility, table.concat(skillRangesCells, "\n"))
 end
 
 function getFamiliarsOutput(rarity, fams)
-    local header = string.format(famsHeaderTmpl, rarity)
+    local header = string.format(HEADER_TEMPLATE, rarity)
 
     local fragments = {}
     for i, fam in ipairs(fams) do
@@ -91,7 +91,7 @@ function getFamiliarsOutput(rarity, fams)
     end
 
     local rows = table.concat(fragments, "\n")
-    return table.concat({header, rows, famsFooterTmpl}, "\n")
+    return table.concat({header, rows, FOOTER_TEMPLATE}, "\n")
 end
 
 function invocable.familiarsTable(frame)

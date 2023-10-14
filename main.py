@@ -9,9 +9,9 @@ class Commands:
     CMD_OUTPUT_JSON = 'json'
 
 def cmd_familiars(args):
-    print('Processing CSV file {}'.format(args.tsv))
-    with open(args.tsv, mode='r', newline='', encoding='utf-8') as csv_file, open(args.out, mode='w', encoding='utf-8') as wiki_file:
-        csv_reader = csv.DictReader(csv_file, dialect="excel-tab")
+    print('Processing CSV file {}'.format(args.csv))
+    with open(args.csv, mode='r', newline='', encoding='utf-8') as csv_file, open(args.out, mode='w', encoding='utf-8') as wiki_file:
+        csv_reader = csv.DictReader(csv_file)
 
         environment = Environment(loader=FileSystemLoader('templates/'))
         template = environment.get_template('familiars.j2')
@@ -26,9 +26,9 @@ def cmd_familiars(args):
     print('Finished writing wikitext to {}'.format(args.out))
 
 def cmd_json(args):
-    print("Converting familiar tsv to json")
-    with open(args.tsv, mode='r', newline='', encoding='utf-8') as csv_file, open(args.out, mode='w', encoding='utf-8') as json_file:
-        csv_reader = csv.DictReader(csv_file, dialect="excel-tab") 
+    print("Converting familiar csv to json")
+    with open(args.csv, mode='r', newline='', encoding='utf-8') as csv_file, open(args.out, mode='w', encoding='utf-8') as json_file:
+        csv_reader = csv.DictReader(csv_file) 
         arr = []
         for row in csv_reader:
             arr.append(familiar.Familiar(row).toJSON())
@@ -39,12 +39,12 @@ if __name__ == '__main__':
     subparsers = parser.add_subparsers(dest='subcommand')
     
     parser_familiars = subparsers.add_parser(Commands.CMD_FAMILIARS, help='convert fam csv file into a wiki familiar table')
-    parser_familiars.add_argument('-t', '--tsv', required=True, help='input tsv file')
+    parser_familiars.add_argument('-c', '--csv', required=True, help='input csv file')
     parser_familiars.add_argument('-o', '--out', required=True, help='wikitext output file')
     parser_familiars.add_argument('-r', '--rarity', required=True, help='one of these: common|rare|epic|legendary|mythic')
 
-    output_json = subparsers.add_parser(Commands.CMD_OUTPUT_JSON, help='convert a tsv file to json')
-    output_json.add_argument('-t', '--tsv', required=True, help='input tsv file')
+    output_json = subparsers.add_parser(Commands.CMD_OUTPUT_JSON, help='convert a csv file to json')
+    output_json.add_argument('-c', '--csv', required=True, help='input csv file')
     output_json.add_argument('-o', '--out', required=True, help='wikitext output file')
 
     args = parser.parse_args()
