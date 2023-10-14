@@ -1,3 +1,4 @@
+import json
 import re
 
 ZONE_NAMES = [
@@ -33,6 +34,9 @@ class Familiar:
         self.power, self.stamina, self.agility = [stat + '%' for stat in csv_row['Stat Spread'].split(" / ")]
         self.dungeons = self._get_dungeon_links(self.zone, csv_row['Dungeon'])
         self.skill_names, self.skill_descs, self.skill_ranges = self._get_skills(csv_row['Skills'])
+
+    def toJSON(self):
+        return json.dumps(self, default=lambda o: o.__dict__, sort_keys=True, indent=4)
         
     def _get_skills(self, skills_csv):
         skills = skills_csv.splitlines()
@@ -54,10 +58,12 @@ class Familiar:
         for dungeon in dungeon_strings:
             pattern = r'Z(\d+)D\d+'
             match = re.search(pattern, dungeon)
-            zone_num = int(match.group(1))
             if match:
+                zone_num = int(match.group(1))
                 dungeon_links.append(
                     "[[Zones/{}|{}]]".format(ZONE_NAMES[zone_num-1], dungeon)
                 )
+            else:
+                dungeon_links.append(dungeon)
 
         return dungeon_links

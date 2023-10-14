@@ -12,12 +12,12 @@
 |{% raw %}{{Stamina}}{% endraw %}
 |'''{{fam.stamina}}'''
 {% for desc in fam.skill_descs -%}
-|'''{{desc}}'''
+|{{desc}}
 {% endfor -%}
 |-
 |{{fam.dungeons|join("/")}}
 |{% raw %}{{Agility}}{% endraw %}
 |'''{{fam.agility}}'''
 {% for range in fam.skill_ranges -%}
-|'''{{range}}'''
+|{{range}}
 {% endfor -%}

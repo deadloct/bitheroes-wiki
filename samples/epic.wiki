@@ -15,18 +15,18 @@
 |10% Earth Dmg
 |{{Stamina}}
 |'''14.0%'''
-|'''Deals earth damage and bleed furthest enemy'''
-|'''Deals earth damage and bleed target enemy'''
-|'''Dealths earth damage to furthest and closest enemy'''
-|'''Deals earth damage to a random enemy, 2 times'''
+|Deals earth damage and bleed furthest enemy
+|Deals earth damage and bleed target enemy
+|Dealths earth damage to furthest and closest enemy
+|Deals earth damage to a random enemy, 2 times
 |-
 |[[Zones/Olympian Secret Party|Z17D1]]/[[Zones/Olympian Secret Party|Z17D4]]
 |{{Agility}}
 |'''56.4%'''
-|'''TBC'''
-|'''TBC'''
-|'''TBC'''
-|'''TBC'''
+|TBC
+|TBC
+|TBC
+|TBC
 
 |- id="Thebes"
 | rowspan="3" |{{IconEpic}}<br>{{Missing}}
@@ -42,18 +42,18 @@
 |10% Fire Resist
 |{{Stamina}}
 |'''9.1%'''
-|'''Shields and heals self'''
-|'''Deals fire damage and combust closest enemy'''
-|'''Deals fire damage and drains from selected enemy, 2 times'''
-|'''Deals fire damage and combust the closest enemy 2 times'''
+|Shields and heals self
+|Deals fire damage and combust closest enemy
+|Deals fire damage and drains from selected enemy, 2 times
+|Deals fire damage and combust the closest enemy 2 times
 |-
 |[[Zones/Olympian Secret Party|Z17D2]]/[[Zones/Olympian Secret Party|Z17D4]]
 |{{Agility}}
 |'''18.2%'''
-|'''TBC'''
-|'''TBC'''
-|'''TBC'''
-|'''TBC'''
+|TBC
+|TBC
+|TBC
+|TBC
 
 |- id="Aeololo"
 | rowspan="3" |{{IconEpic}}<br>{{Missing}}
@@ -69,18 +69,18 @@
 |10% Air Dmg
 |{{Stamina}}
 |'''11.5%'''
-|'''Deals air damage and bleed target enemy'''
-|'''Deals air damage to closest 2 enemies'''
-|'''Deals air damage to random enemy, 2 times'''
-|'''Deals air damage and oxidize target enemy'''
+|Deals air damage and bleed target enemy
+|Deals air damage to closest 2 enemies
+|Deals air damage to random enemy, 2 times
+|Deals air damage and oxidize target enemy
 |-
 |[[Zones/Olympian Secret Party|Z17D3]]/[[Zones/Olympian Secret Party|Z17D4]]
 |{{Agility}}
 |'''23.4%'''
-|'''TBC'''
-|'''TBC'''
-|'''TBC'''
-|'''TBC'''
+|TBC
+|TBC
+|TBC
+|TBC
 
 |- id="Robosawa"
 | rowspan="3" |{{IconEpic}}<br>{{Missing}}
@@ -96,18 +96,18 @@
 |10% Earth Resist
 |{{Stamina}}
 |'''56.3%'''
-|'''Deals fire damage and roots weakest enemey'''
-|'''Deals fire damage and drains strongest enemy'''
-|'''Deals fire damage and bleeds closest 2 enemies'''
-|'''Shields teammates'''
+|Deals fire damage and roots weakest enemey
+|Deals fire damage and drains strongest enemy
+|Deals fire damage and bleeds closest 2 enemies
+|Shields teammates
 |-
 |[[Zones/Sruxon Attack!|Z18D1]]/[[Zones/Sruxon Attack!|Z18D4]]
 |{{Agility}}
 |'''15.2%'''
-|'''TBC'''
-|'''TBC'''
-|'''TBC'''
-|'''TBC'''
+|TBC
+|TBC
+|TBC
+|TBC
 
 |- id="Dr. Ediblegh"
 | rowspan="3" |{{IconEpic}}<br>{{Missing}}
@@ -123,18 +123,18 @@
 |10% Water Dmg
 |{{Stamina}}
 |'''27.6%'''
-|'''Deals water damage and freeze weakest enemy'''
-|'''Shield target'''
-|'''Deal water damage and freeze weakest enemy'''
-|'''Enrage teammate and spread heal'''
+|Deals water damage and freeze weakest enemy
+|Shield target
+|Deal water damage and freeze weakest enemy
+|Enrage teammate and spread heal
 |-
 |[[Zones/Sruxon Attack!|Z18D2]]/[[Zones/Sruxon Attack!|Z18D4]]
 |{{Agility}}
 |'''54.5%'''
-|'''TBC'''
-|'''TBC'''
-|'''TBC'''
-|'''TBC'''
+|TBC
+|TBC
+|TBC
+|TBC
 
 |- id="Washi"
 | rowspan="3" |{{IconEpic}}<br>{{Missing}}
@@ -150,18 +150,18 @@
 |10% Electric Dmg
 |{{Stamina}}
 |'''25.7%'''
-|'''Deals electric damage to weakest enemy 2 times and shock'''
-|'''Deals electric damage to weakest and strongest enemy'''
-|'''Deals electric damage to closest enemy 2 times and shock'''
-|'''Deals electric damage and shock target enemy, 2 times'''
+|Deals electric damage to weakest enemy 2 times and shock
+|Deals electric damage to weakest and strongest enemy
+|Deals electric damage to closest enemy 2 times and shock
+|Deals electric damage and shock target enemy, 2 times
 |-
 |[[Zones/Sruxon Attack!|Z18D3]]/[[Zones/Sruxon Attack!|Z18D4]]
 |{{Agility}}
 |'''36.9%'''
-|'''TBC'''
-|'''TBC'''
-|'''TBC'''
-|'''TBC'''
+|TBC
+|TBC
+|TBC
+|TBC
 
 |- id="Tomor"
 | rowspan="3" |{{IconEpic}}<br>{{Missing}}
@@ -177,18 +177,18 @@
 |10% Air Dmg
 |{{Stamina}}
 |'''24.1%'''
-|'''Deals air damage and bleeds closest, spread heals'''
-|'''Shield target'''
-|'''Deals air damage and bleeds closest 3 enemies'''
-|'''Spread heal and gain 1 SP'''
+|Deals air damage and bleeds closest, spread heals
+|Shield target
+|Deals air damage and bleeds closest 3 enemies
+|Spread heal and gain 1 SP
 |-
 |[[Zones/Galactic Trials|Z19D1]]/[[Zones/Galactic Trials|Z19D4]]
 |{{Agility}}
 |'''47.7%'''
-|'''TBC'''
-|'''TBC'''
-|'''TBC'''
-|'''TBC'''
+|TBC
+|TBC
+|TBC
+|TBC
 
 |- id="Espanior"
 | rowspan="3" |{{IconEpic}}<br>{{Missing}}
@@ -204,18 +204,18 @@
 |10% Earth Dmg
 |{{Stamina}}
 |'''36.2%'''
-|'''Oxidize enemy team and deal earth damage to strongest, closest and weakest enemies'''
-|'''Deals earth damage and roots closest 3 enemies'''
-|'''Drain furthest enemy'''
-|'''Deals earth damage and root weakest enemy, 2 times'''
+|Oxidize enemy team and deal earth damage to strongest, closest and weakest enemies
+|Deals earth damage and roots closest 3 enemies
+|Drain furthest enemy
+|Deals earth damage and root weakest enemy, 2 times
 |-
 |[[Zones/Galactic Trials|Z19D2]]/[[Zones/Galactic Trials|Z19D4]]
 |{{Agility}}
 |'''27.0%'''
-|'''TBC'''
-|'''TBC'''
-|'''TBC'''
-|'''TBC'''
+|TBC
+|TBC
+|TBC
+|TBC
 
 |- id="Davidator"
 | rowspan="3" |{{IconEpic}}<br>{{Missing}}
@@ -231,18 +231,18 @@
 |10 Fire Resist
 |{{Stamina}}
 |'''50.4%'''
-|'''Deals water damage and drains strongest enemy'''
-|'''Deals water damage and freezes closest enemy, shields self'''
-|'''Deals water damage and freezes furthest enemy, damage self'''
-|'''Deals water damage and freezes random enemy, damage self'''
+|Deals water damage and drains strongest enemy
+|Deals water damage and freezes closest enemy, shields self
+|Deals water damage and freezes furthest enemy, damage self
+|Deals water damage and freezes random enemy, damage self
 |-
 |[[Zones/Galactic Trials|Z19D3]]/[[Zones/Galactic Trials|Z19D4]]
 |{{Agility}}
 |'''39.5%'''
-|'''TBC'''
-|'''TBC'''
-|'''TBC'''
-|'''TBC'''
+|TBC
+|TBC
+|TBC
+|TBC
 
 |- id="Tibourke"
 | rowspan="3" |{{IconEpic}}<br>{{Missing}}
@@ -258,18 +258,18 @@
 |10% Earth Dmg
 |{{Stamina}}
 |'''18.1%'''
-|'''Deals earth damage to closest 2 enemies'''
-|'''Deals earth damage to fastest and 1 other enemy'''
-|'''(2SP): Deals earth damage to the closest 3 enemies and self'''
-|'''Deals earth damag eto the weakest enemy'''
+|Deals earth damage to closest 2 enemies
+|Deals earth damage to fastest and 1 other enemy
+|(2SP): Deals earth damage to the closest 3 enemies and self
+|Deals earth damag eto the weakest enemy
 |-
 |[[Zones/Big Claw|Z20D1]]/[[Zones/Big Claw|Z20D4]]
 |{{Agility}}
 |'''39.0%'''
-|'''TBC'''
-|'''TBC'''
-|'''TBC'''
-|'''TBC'''
+|TBC
+|TBC
+|TBC
+|TBC
 
 |- id="Dr. Huther"
 | rowspan="3" |{{IconEpic}}<br>{{Missing}}
@@ -285,18 +285,18 @@
 |10% Water Resist
 |{{Stamina}}
 |'''51.1%'''
-|'''Deals electric damage to the closest enemy and oxidizes'''
-|'''Deals electric damage to the weakest enemy'''
-|'''Deals electric damage to target enemy and removes 1 SP'''
-|'''Deals electric damage to the strongest enemy and 1 other enemy'''
+|Deals electric damage to the closest enemy and oxidizes
+|Deals electric damage to the weakest enemy
+|Deals electric damage to target enemy and removes 1 SP
+|Deals electric damage to the strongest enemy and 1 other enemy
 |-
 |[[Zones/Big Claw|Z20D2]]/[[Zones/Big Claw|Z20D4]]
 |{{Agility}}
 |'''8.8%'''
-|'''TBC'''
-|'''TBC'''
-|'''TBC'''
-|'''TBC'''
+|TBC
+|TBC
+|TBC
+|TBC
 
 |- id="Cachicken Totem"
 | rowspan="3" |{{IconEpic}}<br>{{Missing}}
@@ -312,18 +312,18 @@
 |10% Air Dmg
 |{{Stamina}}
 |'''19.2%'''
-|'''Deals air damage to last attacker'''
-|'''Deals air damage to all enemies and removes 1 SP'''
-|'''Heals strongest teammate'''
-|'''Heals and shields fastest teammate'''
+|Deals air damage to last attacker
+|Deals air damage to all enemies and removes 1 SP
+|Heals strongest teammate
+|Heals and shields fastest teammate
 |-
 |[[Zones/Big Claw|Z20D3]]/[[Zones/Big Claw|Z20D4]]
 |{{Agility}}
 |'''45.2%'''
-|'''TBC'''
-|'''TBC'''
-|'''TBC'''
-|'''TBC'''
+|TBC
+|TBC
+|TBC
+|TBC
 
 |}
 <!-- END AUTO-GENERATED FROM CSV -->
